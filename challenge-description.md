@@ -11,7 +11,7 @@ The objective of this challenge is to build a UI page to display some github rep
 
 ## Requirements
 
-- The app must be responsive and scale based on different window sizes. Using a **mobile-first** is a big plus.
+- The app must be responsive and scale based on different window sizes. Using a **mobile-first** approach is a big plus.
 - What we're looking for is a table or list of items that show some important data to the end user.
 - For each item, the following information must be present on the page:
   - Name
@@ -21,7 +21,7 @@ The objective of this challenge is to build a UI page to display some github rep
   - Fork Count
   - Star Gazers
   - Primary Language
-- It must be possible to sort based on column headers (Name, Pushed At, ).
+- It must be possible to sort based on column headers (Name, Pushed At, etc.).
 
 ## Bonus points
 
