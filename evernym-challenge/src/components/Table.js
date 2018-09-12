@@ -3,15 +3,10 @@ import axios from 'axios';
 import './Table.css';
 
 class Table extends Component {
-    state = {
-        repos: []
-    }
-
     componentDidMount() {
-        axios.get('../../api/data.json')
+        axios.get('')
             .then(response => {
-                const repos = response.data;
-                this.setState({ repos })
+                console.log(response)
             })
     }
 
@@ -19,9 +14,6 @@ class Table extends Component {
         return (
             <div>
                 <p>Table of repos goes here</p>
-                <ul>
-                    { this.state.repos }
-                </ul>
             </div>
         )
     }
