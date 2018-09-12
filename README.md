@@ -45,7 +45,7 @@
 10. Renamed data.json to db.json and tried my-json-server to no avail.
 11. Other things I could still try: Ajax, jQuery, jsonData, or building a simple express server and deploying that somewhere external like heroku.
 12. Before I go down the rabbit-hole of building my own server I should ask for advice from the team.
-13. While waiting for iput from the team, I can continue learning how to build a table in React and see if I can get that to render just with some jsx inputs.
+13. While waiting for iput from the team, I can continue learning how to build a table in React and see if I can get that to render with some jsx placeholders.
 
 
 # `EVERNYM ui challenge`
