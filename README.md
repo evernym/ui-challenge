@@ -15,11 +15,11 @@
     a) What is Aphrodite?
     b) What is Redux?
 2. Learn how to fetch/get api data into react, in particular the specified endpoints.
-3. Learn how to build a table in react including the specified data endpoints.
-4. Get api data to render in the table.
+3. Learn how to build a table in react including column headers that sort.
+4. Get api data to render in the table dynamically.
 5. Is the styling/css of the app responsive (mobile-first) and is the styling acceptable for mvp?
 6. Should I beautify the app with some boostrapped styling?
-7. Add code so table will sort by column headers
+7. ....
 8. If there is still time, implement testing.
 9. Return zipped file to Evernym
 10. Ask for feedback, and what else they would like at this point.
@@ -30,7 +30,10 @@
     a) I have learned that Aphrodite is a css library for React, this dependency is installed in case I have time to try using it.
     b) Along with my current studies of React, I am definitely planning to dive into Redux, but for now I'm realizing it's meant to help manage state in complex apps, which doesn't seem to apply to this challenge so I will shelf that for now.
 2. It doesn't seem the architecture for this needs to be too complicated, just added a table component to render in app.js.
-3. Getting external data into React: This is where I am already getting super stuck. The challenge provides a simple static data.json file in the forked repo.
+3. Getting external data into React: This is where I am already getting super stuck. The challenge provides a simple data.json file in the forked repo. With advice from the team, I was able to find a temporary solution and move on (more on this below).
+4. Next I worked on getting a simple table to render with just a few of the prescribed columns populated with static data. I decided to implement the sorting column headers at this point rather than later. Data is rendering and sorting but css needs fixing.
+5. 
+
 
 ## Trying to get API data into React
 1. This is my first time calling data into React. (Prior to this I have called local json data into vanilla javascript DOM manipulation and external apis into Vue.js).
@@ -46,6 +49,13 @@
 11. Other things I could still try: Ajax, jQuery, jsonData, or building a simple express server and deploying that somewhere external like heroku.
 12. Before I go down the rabbit-hole of building my own server I should ask for advice from the team.
 13. While waiting for iput from the team, I can continue learning how to build a table in React and see if I can get that to render with some jsx placeholders.
+14. Trevor reported back on my issue, he suggested const stuff require(...), I didn't mention I had tried this before, but I finally got it to work by moving data.json direclty into the src folder. While this doesn't seem very "real world," for the sake of this challenge it will save me the time of setting up an external database.
+15. I was able to console log the json data from the table component using the require method, however, create-react-app still insisted on having the data file direclty in the src folder (which I feel is kind of a "hack" but will leave it be for now so I can move on). I think a more real-world example would be to build an express sever.
+
+## To Do's for future iterations
+
+1. Wait on adding the avatar picture?
+2. pushedAt info looks like a time stamp that needs to be translated into more human-friendly context?
 
 
 # `EVERNYM ui challenge`
