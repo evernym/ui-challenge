@@ -65,14 +65,16 @@ class Table extends Component {
 
     return (
       <div className="table">
-        <div className="header">
-          <div onClick={() => this.sortBy('name')} >Name</div>
-          <div onClick={() => this.sortBy('owner')}>Owner</div>
-          <div onClick={() => this.sortBy('pushed')}>Pushed</div>
-          <div onClick={() => this.sortBy('description')}>Description</div>
-          <div onClick={() => this.sortBy('forkcount')}>Fork Count</div>
+        <div className="column">
+          <div className="header">
+            <div onClick={() => this.sortBy('name')} >Name</div>
+            <div onClick={() => this.sortBy('owner')}>Owner</div>
+            <div onClick={() => this.sortBy('pushed')}>Pushed</div>
+            <div onClick={() => this.sortBy('description')}>Description</div>
+            <div onClick={() => this.sortBy('forkcount')}>Fork Count</div>
+          </div>
         </div>
-        <div className="body">
+        <div>
           {rows}
         </div>
       </div>
