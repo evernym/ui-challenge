@@ -35,8 +35,8 @@ It doesn't seem the architecture for this needs to be too complicated, just adde
 5. In searching for sortable react table solutions I determined I should give the react-table library a try. This approach totally worked and instantly provided a sortable table that was relatively responsive to window size.
 6. The app is somewhat responsive but only with properties inherent to react. Since I have exceeded the recommended 10 hour time limit, will ask if I should puruse this further.
 7. The styling provided by react-table is somewhat decent already, will ask if the team wants me to pursue more styling at this time.
-8. Testing is not implemented yet, since I've exceeded the recommended time limit, will ask the team if I should puruse it at this time.
-9. I will open an issue to ask if the team wants me to continue on this project before building the current app for production in its current state.
+8. Create-react-app automatically implements a couple of basic tests, will ask if the team wants me to puruse more detailed testing.
+9. I will open an issue to ask if the team wants me to continue on this project before building the current app-candidate for production.
 10. Waiting for team response.
 
 
