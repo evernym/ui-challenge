@@ -1,23 +1,2 @@
-.table {
-  margin: 1em;
-  display: flex;
-  flex-direction: column;
-}
 
-.header, .row {
-  display: flex;
-  padding: 0.5em;
-  border: 1px solid #DED4D4;
-}
-
-.column {
-  flex: 1;
-  padding: 0.5em;
-  border: 1px solid #DED4D4;
-}
-
-.header {
-  background-color: #DED4D4;
-  cursor: pointer;
-}
 

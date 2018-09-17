@@ -50,12 +50,11 @@
 12. Before I go down the rabbit-hole of building my own server I should ask for advice from the team.
 13. While waiting for iput from the team, I can continue learning how to build a table in React and see if I can get that to render with some jsx placeholders.
 14. Trevor reported back on my issue, he suggested const stuff require(...), I didn't mention I had tried this before, but I finally got it to work by moving data.json direclty into the src folder. While this doesn't seem very "real world," for the sake of this challenge it will save me the time of setting up an external database.
-15. I was able to console log the json data from the table component using the require method, however, create-react-app still insisted on having the data file direclty in the src folder (which I feel is kind of a "hack" but will leave it be for now so I can move on). I think a more real-world example would be to build an express sever.
+15. I was able to console log the json data from the table component using the require method, however, create-react-app still insisted on having the data file directly in the src folder (which I feel is kind of a "hack" but will leave it be for now so I can move on). I think a more real-world example would be to build an express sever.
 
 ## To Do's for future iterations
 
-1. Wait on adding the avatar picture?
-2. pushedAt info looks like a time stamp that needs to be translated into more human-friendly context?
+pushedAt info looks like a time stamp that needs to be translated into more human-friendly context?
 
 
 # `EVERNYM ui challenge`
