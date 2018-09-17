@@ -1,5 +1,9 @@
 # Clark Newell Repo Fork
-## Instructions on running the app
+
+## Built product live here:
+>http://lavish-reason.surge.sh/
+
+## Instructions on running the app locally
 
 1. Fork this repo in Github
 2. git clone url in desired directory
