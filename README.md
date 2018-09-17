@@ -28,7 +28,7 @@
 
 1. Creating react app was pretty straight forward, I have practiced doing this a few times and have recently created my own personal app in React, which is currently a static site using GatsbyJS.
     a) I have learned that Aphrodite is a css library for React, this dependency is installed in case I have time to try using it.
-    b) Along with my current studies of React, I am definitely planning to dive into Redux, but for now I'm realizing it's meant to help manage state in complex apps, which doesn't seem to apply to this challenge so I will shelf that for now.
+    b) Along with my current studies of React, I am definitely planning to dive into Redux, but for now I'm learning it's meant to help manage state in complex apps, which doesn't seem to apply to this challenge so I will shelf that for now.
 It doesn't seem the architecture for this needs to be too complicated, just added a table component to render in app.js.
 2. Getting external data into React: This is where I was getting super stuck. The challenge provides a simple data.json file in the forked repo. With advice from the team, I was able to find a temporary solution and move on (more on this below).
 4. Next I worked on getting a simple table to render with just a few of the prescribed columns populated with static data. I decided to implement the sorting column headers at this point rather than later. Data was rendering and sorting but css needed fixing. After leaning how to fetch data externally by setting up a mock api I was able to render the table info dynamically.
@@ -36,7 +36,7 @@ It doesn't seem the architecture for this needs to be too complicated, just adde
 6. The app is somewhat responsive but only with properties inherent to react. Since I have exceeded the recommended 10 hour time limit, will ask if I should puruse this further.
 7. The styling provided by react-table is somewhat decent already, will ask if the team wants me to pursue more styling at this time.
 8. Create-react-app automatically implements a couple of basic tests, will ask if the team wants me to puruse more detailed testing.
-9. I will open an issue to ask if the team wants me to continue on this project before building the current app-candidate for production.
+9. Will open an issue to ask if the team wants me to continue on this project before building the current app candidate for production.
 10. Waiting for team response.
 
 
