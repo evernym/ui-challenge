@@ -38,17 +38,16 @@ class Table extends Component {
     },{
       Header: 'Description',
       accessor: 'description'
+    },{
+      Header: 'Fork Count',
+      accessor: 'forkCount'
+    },{
+      Header: 'Star Gazers',
+      accessor: 'stargazers.totalCount'
+    },{
+      Header: 'Primary Language',
+      accessor: 'primaryLanguage.name'
     }]
-    // ,{
-    //   Header: 'Fork Count',
-    //   accessor: 'forkCount'
-    // },{
-    //   Header: 'Star Gazers',
-    //   accessor: 'stargazers'
-    // },{
-    //   Header: 'Primary Language',
-    //   accessor: 'primaryLanguage'
-    // }
 
     return (
       <div>  
