@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
 import Table from './components/Table'
 
 class App extends Component {
@@ -15,7 +15,7 @@ class App extends Component {
           <Table />
         </div>
       </div>
-    );
+    )
   }
 }
 
